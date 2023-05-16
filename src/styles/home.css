@@ -1,0 +1,685 @@
+@font-face {
+    font-family: 'Burrito';
+    src: url('../fonts/burrito.TTF');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Flavors';
+    src: url('../fonts/Flavors-Regular.ttf');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Xisfani.ttf');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rustic Love Tattoo';
+    src: url('../fonts/RusticLoveTattoo.ttf');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Tequila';
+    src: url('../fonts/Tequila.ttf');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: #A61E22;
+}
+.container {
+    width: 100%;
+    height:100vh;
+}
+
+.main-title{
+    font-size: 2em;
+    font-family: "Tequila";
+}
+
+.intro {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.media-container{
+    display:flex;
+    flex-direction:column;
+    flex: 0 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-btn{
+    padding: 6px;
+    cursor: pointer;
+    /*background-color: rgba(47, 192, 244, 0.8);  */  
+    background-color: rgba(120, 120, 120, 0.2);
+    box-shadow: 2px 1px 1px rgb(0, 0, 0, .5);
+    border-radius: 5px;    
+    color:black;
+    font-weight:bold;
+    font-size:1em;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;
+    display:flex;
+    flex-direction:row;
+}
+
+.pancake-img{
+    background-image: url('../img/bunny-color.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    justify-self: center;
+    display:flex;
+    align-self: center;
+    height:20px;
+    width:20px;
+    margin-right:5px;
+
+}
+
+.main-btn:hover{  
+    /*background-color: rgba(47, 192, 244, 0.7);  */
+    background-color: rgba(120, 120, 120, 0.16);
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, .5);
+    transition: all .1s ease-in-out;
+}
+
+.main-btn:active{  
+    /*background-color: rgba(47, 192, 244, 0.9);*/  
+    background-color: rgba(120, 120, 120, 0.22);  
+    box-shadow: 1px 0px 0px rgb(0, 0, 0, .5);
+    transition: all .2s ease-in-out;
+}
+
+.second-btn{
+    padding: 6px;
+    cursor: pointer;
+    background-color: rgba(120, 120, 120, 0.2);
+    box-shadow: 2px 1px 1px rgb(0, 0, 0, .5);
+    border-radius: 5px;    
+    color:black;
+    font-weight:bold;
+    font-size:1em;
+    margin-top: 20px;
+}
+
+.second-btn:hover{
+    background-color: rgba(120, 120, 120, 0.16);
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, .5);
+    transition: all .2s ease-in-out;
+
+}
+
+.second-btn:active{  
+    background-color: rgba(120, 120, 120, 0.22);  
+    box-shadow: 1px 0px 0px rgb(0, 0, 0, .5);
+    transition: all .2s ease-in-out;
+}
+
+.main-img{
+    width:50%;
+    min-height: 40%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url('../img/mariachi_mustache.png');
+    border: none;
+    position:relative;
+}
+
+.text-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex: 0 50%;
+    margin-right: 150px;
+}
+
+.text-container > .title{
+    font-size: 2em;
+    font-weight: 700;
+    width:80%;
+    font-family: 'Merienda', sans-serif;
+
+}
+
+.text-container > .body{
+    margin-top: 20px;
+    font-size: 1em;
+    max-width:80%;
+    font-family: sans-serif;
+    text-align:justify;
+    word-spacing: -2px;
+    line-height:1.2em;
+    font-family: 'Rustic Love Tattoo';
+}
+
+
+.container-two {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 100px;
+    margin-bottom:100px;
+    display:flex;
+    flex-direction:column;
+}
+
+.container-two, .container-four{
+    height:auto;
+    width: 100%;
+    padding-top:30px;
+    padding-bottom:70px;
+    display:flex;
+    flex-direction:column;
+}
+
+.diving-img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center center;
+    background-image: url('../img/sombrerodive.png');
+    justify-self: center;
+    align-self: center;
+    width:500px;
+    height:500px;
+    margin-bottom: 20px;
+}
+.container-three{
+    height:auto;
+    width: 100%;
+    padding-top:30px;
+    padding-bottom:120px;
+    display:flex;
+    flex-direction:column;
+}
+
+.container-disclaimer{
+    height:auto;
+    width: 100%;
+    padding: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.roadmap-section.disclaimer{
+    width: 90%;
+    font-size: 1.1em;    
+    font-family:'Rustic Love Tattoo', sans-serif;
+    max-height:none;
+    
+}
+
+.inner-two, .inner-three{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+
+}
+.inner-two{
+    justify-content: space-evenly;
+}
+
+.inner-three{
+    justify-content: space-around;
+}
+
+
+
+.roadmap-section {
+    border : 2px solid black;
+    background-color: #FCB514;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, .5);
+    width: 300px;
+    max-height: 400px;
+    text-align:left;        
+    padding: 20px 40px 30px;
+    box-sizing: border-box;
+    font-weight:500;
+}
+
+
+
+
+.roadmap-section.one {
+    
+}
+
+.roadmap-section.two {
+    
+}
+
+.roadmap-section.three {
+    
+}
+
+.roadmap-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family:'Flavors', sans-serif;
+}
+
+.roadmap-list {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.roadmap-list-item {
+    margin : 10px 0;
+    font-family: "burrito";
+}
+
+.roadmap-list.tokenomics{
+    font-size: 1.2em;
+    overflow:hidden;
+    display:inline-block;
+    margin:0;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.title-two{
+    margin-bottom: 20px;
+    font-family:'Merienda', sans-serif;
+}
+.title-two, .title-three, .title-four{
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family:'Merienda', sans-serif;
+}
+
+.buy-steps-container{
+    width: 100%;
+    padding-left:160px;
+    padding-right:160px;
+    box-sizing: border-box;
+}
+
+.buy-step{
+    width: 100%;
+    background-color: #FCB514;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px rgb(0, 0, 0, .5);
+    border: 3px solid #555;
+    padding: 20px 40px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom:30px;
+}
+
+.step-title{
+    font-weight:600;
+    margin-bottom:10px;
+    font-size:1.3em;
+    font-family:'Flavors', sans-serif;
+    word-spacing: -2px;
+}
+
+.step-body{
+    font-weight: 400;
+    font-size: 1.0em;
+    font-family: sans-serif;
+    text-align:justify;
+    word-spacing: -2px;
+    line-height:1.2em;
+    font-family: 'Rustic Love Tattoo';
+}
+
+.token-snek-one {
+    background-size:cover;
+    width:400px;
+    height:400px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.token-ppp-two {
+    background-size:cover;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-image:url('../img/pepewall2.png');
+}
+
+
+.roadmap-section.token{
+    overflow:hidden;
+    padding: 20px 10px 30px;
+}
+.subtitle{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    max-width:700px;
+    align-self: center;
+    font-weight:500;
+    font-family: 'Flavors';
+}
+
+
+
+
+
+.social-container{
+    display:flex;
+    flex-direction: row;
+    padding-right:20px;
+    height: 80px;
+    width:100%;
+    margin-left:120px;
+}
+.twitter-link{
+    display: inline-flex;
+}
+.twitter-container{
+    background-image: url('../img/twitter.png');
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    transition: all .2s ease-in-out;
+}
+
+.twitter-container:hover{
+    background-size:80%;
+    transition: all .2s ease-in-out;
+}
+
+.telegram-link{
+    display: inline-flex;
+}
+.telegram-container{
+    background-image: url('../img/telegram.png');
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    transition: all .2s ease-in-out;
+}
+
+.telegram-container:hover{
+    background-size:80%;
+    transition: all .2s ease-in-out;
+}
+
+.bscscan-link{
+    display: inline-flex;
+}
+.bscscan-container{
+    background-image: url('../img/etherscan.png');
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    transition: all .2s ease-in-out;
+}
+
+.bscscan-container:hover{
+    background-size:80%;
+    transition: all .2s ease-in-out;
+}
+
+
+.dextools-link{
+    display: inline-flex;
+}
+.dextools-container{
+    background-image: url('../img/dextools.png');
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    transition: all .2s ease-in-out;
+}
+
+.dextools-container:hover{
+    background-size:80%;
+    transition: all .2s ease-in-out;
+}
+
+.text-container > .body.two {
+    margin-top:0px;
+}
+
+
+.taco-one-img {
+    background-image: url('../img/taco-one.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:225px;
+    width:200px;
+
+}
+
+.taco-two-img {
+    background-image: url('../img/taco-two.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:240px;
+    width:240px;
+
+}
+
+.taco-three-img {
+    background-image: url('../img/tacopile.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:200px;
+    width:200px;
+
+}
+
+.crossing-img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center center;
+    background-image: url('../img/pepecross.png');
+    justify-self: center;
+    align-self: center;
+    min-width:500px;
+    height:500px;
+    margin-bottom: 20px;
+}
+
+.beach-img{
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position:center center;
+    background-image: url('../img/pepeonbeach.png');
+    justify-self: center;
+    align-self: center;
+    width:100%;
+    min-height:840px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left:30px;
+    padding-right:30px;
+    box-sizing: border-box;
+}
+
+.sound-btn.home{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+
+@media screen and (max-width: 950px) {
+    
+    .intro{
+        padding-top:50px;
+        flex-direction: column;
+        height:auto;
+    }
+    
+.beach-img{
+    padding: 0;
+    min-height:300px;
+}
+    .main-img{
+        margin-top:60px;
+        margin-bottom: 40px;
+        min-height:50%;
+    }
+
+    
+    .text-container{
+        padding-top:0px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .text-container > .body {
+        width:80%;
+        font-family: sans-serif;
+        order: 3;
+        font-family: 'Rustic Love Tattoo';
+    }
+
+
+    .text-container > .body.two {
+        order: 6;
+    }
+    .text-container > .title {
+        font-size: 1.5em;
+        order: 2;
+        margin-top:20px;
+    }
+
+    .media-container{
+        height: 350px;
+        flex : 0 1 350px;
+        margin-bottom:20px;
+        margin-top:100px;
+    }
+
+
+    .container{
+        height:auto;
+        padding-bottom:50px;
+    }
+
+    .social-container{
+        order: 4;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding:0;
+        margin-top:0px;
+    }
+
+    
+    .container-two{
+        background-position: center;
+        margin-bottom:0px;
+    }
+
+    .inner-two{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .inner-three {
+        flex-wrap:wrap;
+    }
+
+    .roadmap-section{
+        margin-bottom:60px;
+    }
+    .roadmap-section.token{
+        
+        width: 60%;
+        overflow:hidden;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    .token-snek-one{
+        background-position: right;
+        background-size:150%;
+        background-repeat: no-repeat;
+    }
+
+    .token-ppp-two{
+        background-position: left;
+        background-size:cover;
+        background-repeat: no-repeat;
+        order: 2;
+        background-image: url('../img/pepewall2.png');
+    }
+    
+.diving-img{
+
+    width: 300px;
+    height:300px;
+}
+
+.crossing-img{
+
+    min-width: 300px;
+    height:200px;
+}
+    
+    .roadmap-list.tokenomics{
+        font-size: 1em;
+        padding-left: 25px;
+    }
+
+    .buy-steps-container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+    
+.roadmap-section.disclaimer{
+    margin-bottom:0px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+}

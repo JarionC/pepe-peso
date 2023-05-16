@@ -1,0 +1,17 @@
+.bottom-container{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFF00;
+    position:relative;
+    bottom:0px;
+}
+
+.bottom-text{
+    height:40px;
+    color:black;
+    background-color:transparent;
+    font-size:.8em;
+}

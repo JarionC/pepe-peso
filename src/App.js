@@ -1,24 +1,33 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './components/home';
+import NavBar from './components/nav';
+import BottomBar from './components/bottom';
+import AudioContext from './AudioContext';
+import soundFile from './sounds/jarabe.mp3';
 
 function App() {
+  const [audio, setAudio] = useState(new Audio(soundFile));
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleAudio = () => {
+    if (isMuted) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+    setIsMuted(!isMuted);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AudioContext.Provider value={{ audio, isMuted, toggleAudio }}>
+      <div className="App">
+        <NavBar></NavBar>
+        <HomePage></HomePage>
+        <BottomBar></BottomBar>
+      </div>
+    </AudioContext.Provider>
   );
 }
 
