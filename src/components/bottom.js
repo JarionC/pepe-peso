@@ -19,7 +19,7 @@ class BottomBar extends Component {
     return (
       <div className="bottom-container">
         <div className="bottom-text">
-        © 2023 by PePe Peso. All rights reserved, just like the last taco.</div>
+        © 2023 by Pepe Peso. All rights reserved, just like the last taco.</div>
       </div>
     );
   }

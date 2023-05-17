@@ -409,7 +409,7 @@
     font-size:1.3em;
 }
 .roadmap-list.tokenomics{
-    font-size: 1.2em;
+    font-size: 1.0em;
     overflow:hidden;
     display:inline-block;
     margin:0;
@@ -535,13 +535,32 @@
     background-size:contain;
     background-position: center;
     background-image:url('../img/pepewall2.png');
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+
 }
 
+.roadmap-section.toke{
+    padding: 0;
+    min-width:none;
+    width:auto;
+    margin-bottom: .2em;
+    margin: .2em 2em 0;
+}
+
+.roadmap-section.toke > .roadmap-list-item {
+    width: auto;
+    min-width: none;
+    margin: 2px 0;
+    padding-left: 1em;
+}
 
 .roadmap-section.token{
     overflow:hidden;
     padding: 20px 10px 30px;
 }
+
 .subtitle{
     padding-right: 50px;
     padding-left: 50px;

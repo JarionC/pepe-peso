@@ -18,9 +18,14 @@ class HomePage extends Component {
         this.setState({ showText: !this.state.showText });
       };
 
-
   render() {
     const { isMuted, toggleAudio } = this.context;
+    
+    const contractAddress = "TBA";
+    const ownerAddress = "TBA";
+    const liquidityAirdropWallet = "TBA";
+    const communityAirdropWallet = "TBA";
+    const exchangeWallet = "TBA";
     return (
         <div className="wrapper">
             <div className="container">
@@ -88,7 +93,7 @@ class HomePage extends Component {
                         <ul className="roadmap-list">
                             <li className="roadmap-list-item">Launch</li>
                             <li className="roadmap-list-item">2500+ Holders</li>
-                            <li className="roadmap-list-item">Get $PPP Trending on social media</li>
+                            <li className="roadmap-list-item">Get $PESO Trending on social media</li>
                             <li className="roadmap-list-item">CoinGeck/CoinMarketCap Listings</li>
                         </ul>
                         <div className="taco-one-img"></div>
@@ -96,7 +101,7 @@ class HomePage extends Component {
                     <div className="roadmap-section two">
                     <div className="roadmap-title">Phase 2</div>
                         <ul className="roadmap-list">
-                            <li className="roadmap-list-item">Start The $PPP Newsletter</li>
+                            <li className="roadmap-list-item">Start The $PESO Newsletter</li>
                             <li className="roadmap-list-item">First CEX Listings</li>
                             <li className="roadmap-list-item">Start Cultural Appreciation and Donation Program</li>
                         </ul>
@@ -139,7 +144,7 @@ class HomePage extends Component {
                         2. Load Up on BNB
                     </div>
                     <div className="step-body">
-                        To score some $PPP, you'll need BNB in your wallet. You can score some BNB straight in MetaMask, move it from another wallet, or buy it on an exchange and slide it into your wallet. And don't forget, man, you gotta be riding the Binance Smart Chain network.
+                        To score some $PESO, you'll need BNB in your wallet. You can score some BNB straight in MetaMask, move it from another wallet, or buy it on an exchange and slide it into your wallet. And don't forget, man, you gotta be riding the Binance Smart Chain network.
                     </div>
                 </div>
                 <div className="buy-step three">
@@ -148,16 +153,16 @@ class HomePage extends Component {
                         3. Hook Up with PancakeSwap
                     </div>
                     <div className="step-body">
-                        You can connect directly to PancakeSwap. If you're using a different browser, just make sure you're on the official PancakeSwap site, pick the token, and paste in the official $PPP token address: ___. Keep it safe, keep it legit.
+                        You can connect directly to PancakeSwap. If you're using a different browser, just make sure you're on the official PancakeSwap site, pick the token, and paste in the official $PESO token address: ___. Keep it safe, keep it legit.
                     </div>
                 </div>
                 <div className="buy-step four">
                     <div className="step-img"></div>
                     <div className="step-title">
-                        4. Trade BNB for $PPP
+                        4. Trade BNB for $PESO
                     </div>
                     <div className="step-body">
-                        Once you're loaded with BNB, you can swap it for $PPP. Just remember to keep enough BNB for those gas fees, man. Check the transaction details, and when you're all set, hit confirm. And boom, you're in the $PPP club! Welcome to the fiesta of financial freedom, amigo.
+                        Once you're loaded with BNB, you can swap it for $PESO. Just remember to keep enough BNB for those gas fees, man. Check the transaction details, and when you're all set, hit confirm. And boom, you're in the $PESO club! Welcome to the fiesta of financial freedom, amigo.
                     </div>
                 </div>
             </div>
@@ -173,15 +178,51 @@ class HomePage extends Component {
                 Pepe Peso isn’t just about kicking back with a taco in hand, it's about putting in the work and watching your wealth grow. Our tokenomics are as satisfying as a well-earned quesadilla after a day of hard labor. We’re talking fair distribution, automatic liquidity generation, and a rewarding system that treats everyone like a Mariachi star. At Pepe Peso, we know the value of hard work - and the joy of lazing around counting your earnings!
                 </div>
                 <div className="inner-three">
-                    <div className="token-ppp-two"></div>
+                    <div className="token-ppp-two">
+                        <div className="roadmap-section toke">
+                                <div className="roadmap-list-item">
+                                    {"Contract Addr : " + contractAddress}
+                                </div>
+                        </div>
+                        <div className="roadmap-section toke">
+                                <div className="roadmap-list-item">
+                                    {"Owner Addr : " + ownerAddress}
+                                </div>
+                        </div>
+                        <div className="roadmap-section toke">
+                                <div className="roadmap-list-item">
+                                    {"Liq. Airdrops : " + liquidityAirdropWallet}
+                                </div>
+                        </div>
+                        <div className="roadmap-section toke">
+                                <div className="roadmap-list-item">
+                                    {"Comm. Airdrops : " + communityAirdropWallet}
+                                </div>
+                        </div>
+                        <div className="roadmap-section toke">
+                                <div className="roadmap-list-item">
+                                    {"CEX Reserve : " + exchangeWallet}
+                                </div>
+                        </div>
+                        
+                    </div>
                     <div className="roadmap-section token">
                         <ul className="roadmap-list tokenomics">
+                        <li className="roadmap-list-item">Total Supply : 430000000000000</li>
                             <li className="roadmap-list-item">NO TAXES - In honor of the great Mexican Dream.</li>
-                            <li className="roadmap-list-item">92% of tokens sent to liquidity.</li>
-                            <li className="roadmap-list-item">8% of tokens reserved for CEX exchange listings, bridges.</li>
-                            <li className="roadmap-list-item">LP tokens will be burned, like the heat of a habanero.</li>
-                        </ul>
+                            <li className="roadmap-list-item">Like a well-filled piñata, we're stuffing PancakeSwap with 80% of our Pepe $PESO!</li>
+                            <li className="roadmap-list-item">A solid 10% is set aside for our hardworking Liquidity Providers. Muchas gracias for your support!</li>
+                           </ul>
+                        
                     </div>
+                    
+                    <div className="roadmap-section token">
+                    <ul className="roadmap-list tokenomics"> 
+                            <li className="roadmap-list-item">The Pepe Peso's fiesta wouldn't be the same without our community. That's why 3% is dedicated to airdrops for community engagement.</li>
+                            <li className="roadmap-list-item">The remaining 7% is for expanding our fiesta to other exchanges, building bridges, and spreading the word about Pepe Peso!</li>
+                            <li className="roadmap-list-item">Initial LP tokens will be burned, like the heat of a habanero.</li>
+                        </ul>
+                        </div>
                 </div>
         </div>
         <div className="container-disclaimer">

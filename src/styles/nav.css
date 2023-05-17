@@ -9,6 +9,7 @@
     background-color: rgb(252, 181, 20,  1);
     align-items: center;
     z-index: 5;
+    box-shadow: 2px 2px 5px #555;
 }
 
 .logo-box {
