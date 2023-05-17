@@ -195,12 +195,12 @@ function updateElementVisibility(rms) {
   useEffect(() => {
     handleClick();
   }, [isPlayingOutside]);
-  
+  //<div className={"sound-btn home " + (isPlaying ? "unmuted" : "muted")} onClick={handleClick}>
+ // </div>
 
   return (
     <div className="audio-holder">
-        <div className={"sound-btn home " + (isPlaying ? "unmuted" : "muted")} onClick={handleClick}>
-          </div>
+       
           <div className="audio-elem">
       {classNames.map((className, index) => 
         <div key={index} className={className} >

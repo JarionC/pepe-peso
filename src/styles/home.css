@@ -42,6 +42,15 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Mexican City';
+    src: url('../fonts/Mexican\ City\ Free\ Trial-3a3b.woff2');
+    /* Add more src declarations for different font file formats if needed */
+    /* e.g., src: url('font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
 .wrapper {
     width: 100%;
     height: auto;
@@ -194,7 +203,7 @@
 
 .text-container > .body{
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     max-width:80%;
     font-family: sans-serif;
     text-align:justify;
@@ -501,7 +510,7 @@
 
 .step-body{
     font-weight: 400;
-    font-size: 1.0em;
+    font-size: 1.1em;
     font-family: sans-serif;
     text-align:justify;
     word-spacing: -2px;
@@ -540,8 +549,8 @@
     max-width:700px;
     align-self: center;
     font-weight:700;
-    font-family: "merienda";
-    font-size: 1.2em;
+    font-family: "Rustic Love Tattoo";
+    font-size: 1.3em;
 }
 
 
