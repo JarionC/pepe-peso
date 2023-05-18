@@ -543,17 +543,17 @@
 
 .roadmap-section.toke{
     padding: 0;
-    min-width:none;
     width:auto;
     margin-bottom: .2em;
     margin: .2em 2em 0;
+    font-size:.75em;
+    font-weight:bold;
 }
 
 .roadmap-section.toke > .roadmap-list-item {
     width: auto;
-    min-width: none;
     margin: 2px 0;
-    padding-left: 1em;
+    padding-left: .5em;
 }
 
 .roadmap-section.token{
@@ -727,11 +727,18 @@
 }
 
 .frame-container{
-
+    width:100%;
+    height:100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .frame-holder{
-
+    width: 100%;
 }
 
 .swap-frame{

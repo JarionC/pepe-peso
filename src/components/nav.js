@@ -22,6 +22,9 @@ const NavBar = () => {
           <div className="logo-box"></div>
           
         </div>
+        <div className="add-text">
+          {"Contract Address : 0x73b745daAe667dFF081C3FE746C52142d338d467"}
+        </div>
         <div className={"sound-btn " + (isPlaying ? "unmuted" : "muted")} onClick={handleClick}>
           </div>
       </div>

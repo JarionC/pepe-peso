@@ -21,11 +21,11 @@ class HomePage extends Component {
   render() {
     const { isMuted, toggleAudio } = this.context;
     
-    const contractAddress = "TBA";
-    const ownerAddress = "TBA";
-    const liquidityAirdropWallet = "TBA";
-    const communityAirdropWallet = "TBA";
-    const exchangeWallet = "TBA";
+    const contractAddress = "0x73b745daAe667dFF081C3FE746C52142d338d467";
+    const ownerAddress = "0xF097802Edd7926C78d4EfFa21fCd27D2146Bd229";
+    const liquidityAirdropWallet = "0xC543B571FfA82C22F657C35424a208ceAdE43D84";
+    const communityAirdropWallet = "0xcaf2608C3100E234059D0330b73133F86468248E";
+    const exchangeWallet = "0x5815Dce1d0fdc4b9989c48DC69b1d0107cBFFDEf";
     return (
         <div className="wrapper">
             <div className="container">
@@ -63,7 +63,7 @@ class HomePage extends Component {
 
                             </div>
                         </a>
-                        <a className ="bscscan-link" href="https://bscscan.com/" target="_blank">
+                        <a className ="bscscan-link" href="https://bscscan.com/address/0x73b745daAe667dFF081C3FE746C52142d338d467" target="_blank">
                             <div className="bscscan-container">
 
                             </div>
@@ -150,10 +150,10 @@ class HomePage extends Component {
                 <div className="buy-step three">
                     <div className="step-img"></div>
                     <div className="step-title">
-                        3. Hook Up with PancakeSwap
+                        3. Hook Up with PancakeSwap or Coinbrain
                     </div>
                     <div className="step-body">
-                        You can connect directly to PancakeSwap. If you're using a different browser, just make sure you're on the official PancakeSwap site, pick the token, and paste in the official $PESO token address: ___. Keep it safe, keep it legit.
+                        You can connect directly to PancakeSwap or Coinbrain. If you're using a different browser, just make sure you're on the official Coinbrain or PancakeSwap site, pick the token, and paste in the official $PESO token address: ___. Keep it safe, keep it legit.
                     </div>
                 </div>
                 <div className="buy-step four">
@@ -167,7 +167,11 @@ class HomePage extends Component {
                 </div>
             </div>
         </div>
-
+        <div className="frame-container">
+            <div className="frame-holder">
+            <iframe width="100%" height="640" frameborder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=custom&amp;accent=79b053&amp;background=ffffff&amp;padding=16&amp;chainId=56&amp;inputAddress=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&amp;outputAddress=0x73b745daAe667dFF081C3FE746C52142d338d467"></iframe>
+            </div>
+        </div>
 
        
         <div className="container-three">
@@ -175,7 +179,7 @@ class HomePage extends Component {
                 Breaking Walls: The Pepe Peso Tokenomics
                 </div>
                 <div className="subtitle">
-                Pepe Peso isn’t just about kicking back with a taco in hand, it's about putting in the work and watching your wealth grow. Our tokenomics are as satisfying as a well-earned quesadilla after a day of hard labor. We’re talking fair distribution, automatic liquidity generation, and a rewarding system that treats everyone like a Mariachi star. At Pepe Peso, we know the value of hard work - and the joy of lazing around counting your earnings!
+                Pepe Peso isn’t just about kicking back with a taco in hand, it's about putting in the work and watching your wealth grow. Our tokenomics are as satisfying as a well-earned quesadilla after a day of hard labor. We’re talking fair distribution, no taxes, and a rewarding system that treats everyone like a Mariachi star. At Pepe Peso, we know the value of hard work - and the joy of lazing around counting your earnings!
                 </div>
                 <div className="inner-three">
                     <div className="token-ppp-two">

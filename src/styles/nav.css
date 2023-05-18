@@ -11,6 +11,11 @@
     z-index: 5;
     box-shadow: 2px 2px 5px #555;
 }
+.add-text{
+    margin:auto;
+    font-family: "Rustic Love Tattoo";
+    font-size: .8em;
+}
 
 .logo-box {
     border-radius: 100%;
