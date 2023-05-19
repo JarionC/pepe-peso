@@ -37,10 +37,12 @@ class HomePage extends Component {
 
                    
                     </div>
+                    <a  class="swap-link" target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=0x73b745daAe667dFF081C3FE746C52142d338d467&inputCurrency=BNB">
                     <div className="main-btn">
                         <div className="pancake-img"></div>
-                       <div className="btn-text">Buy on PancakeSwap Soon</div> 
+                       <div className="btn-text">Buy on PancakeSwap</div>
                         </div>
+                        </a> 
                 </div>
                 <div className="text-container">
                     <div className="title"> The Pepe Peso: Crossing borders, breaking down walls, and turning lazy afternoons into a goldmine!</div>
