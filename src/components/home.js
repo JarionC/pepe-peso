@@ -21,8 +21,8 @@ class HomePage extends Component {
   render() {
     const { isMuted, toggleAudio } = this.context;
     
-    const contractAddress = "0x73b745daAe667dFF081C3FE746C52142d338d467";
-    const ownerAddress = "0xF097802Edd7926C78d4EfFa21fCd27D2146Bd229";
+    const contractAddress = "TBA"
+    const ownerAddress = "TBA";
     const liquidityAirdropWallet = "0xC543B571FfA82C22F657C35424a208ceAdE43D84";
     const communityAirdropWallet = "0xcaf2608C3100E234059D0330b73133F86468248E";
     const exchangeWallet = "0x5815Dce1d0fdc4b9989c48DC69b1d0107cBFFDEf";
@@ -37,10 +37,10 @@ class HomePage extends Component {
 
                    
                     </div>
-                    <a  class="swap-link" target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=0x73b745daAe667dFF081C3FE746C52142d338d467&inputCurrency=BNB">
+                    <a  style={{ pointerEvents: 'none'}} class="swap-link" target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=0x73b745daAe667dFF081C3FE746C52142d338d467&inputCurrency=BNB">
                     <div className="main-btn">
                         <div className="pancake-img"></div>
-                       <div className="btn-text">Buy on PancakeSwap</div>
+                       <div className="btn-text">Launch Incoming!</div>
                         </div>
                         </a> 
                 </div>
@@ -65,7 +65,7 @@ class HomePage extends Component {
 
                             </div>
                         </a>
-                        <a className ="bscscan-link" href="https://bscscan.com/address/0x73b745daAe667dFF081C3FE746C52142d338d467" target="_blank">
+                        <a className ="bscscan-link" href="https://bscscan.com/" target="_blank">
                             <div className="bscscan-container">
 
                             </div>
@@ -87,7 +87,7 @@ class HomePage extends Component {
                 </div>
                 <div className="crossing-img"></div>
                 <div className="subtitle">
-                Ready for a sneak peek at what's coming up? Our roadmap is all about making waves and crossing borders, with the fun of a mariachi band and the thrill of a nighttime border dash. We've got plans to grow our community, broaden our horizons, and partner with some cultural hotspots. So, buckle up for a wild ride with Pepe Pesos, where we turn a lazy beach day into a wallet-fattening fiesta!
+                Ready for a sneak peek at what's coming up? You can see our Roadmap below, but remember, the path and eventual ecosystem of The Pepe Peso will be determined by the community. If you want to support and help us plan the rest of our journey, please join us in Telegram!
                 </div>
                 <div className="inner-two">
                     <div className="roadmap-section one">
@@ -96,24 +96,23 @@ class HomePage extends Component {
                             <li className="roadmap-list-item">Launch</li>
                             <li className="roadmap-list-item">2500+ Holders</li>
                             <li className="roadmap-list-item">Get $PESO Trending on social media</li>
-                            <li className="roadmap-list-item">CoinGeck/CoinMarketCap Listings</li>
+                            <li className="roadmap-list-item">CoinGecko/CoinMarketCap Listings</li>
                         </ul>
                         <div className="taco-one-img"></div>
                     </div>
                     <div className="roadmap-section two">
                     <div className="roadmap-title">Phase 2</div>
                         <ul className="roadmap-list">
-                            <li className="roadmap-list-item">Start The $PESO Newsletter</li>
                             <li className="roadmap-list-item">First CEX Listings</li>
-                            <li className="roadmap-list-item">Start Cultural Appreciation and Donation Program</li>
+                            <li className="roadmap-list-item">Start Cultural Appreciation Program</li>
+                            <li className="roadmap-list-item">Begin development of an ecosystem fueled by $PESO </li>
                         </ul>
                         <div className="taco-two-img"></div>
                     </div>
                     <div className="roadmap-section three">
                     <div className="roadmap-title">Phase 3</div>
-                        <ul className="roadmap-list">
-                            <li className="roadmap-list-item">Physical Merchandise</li>              
-                            <li className="roadmap-list-item">Launch Pepe Peso Cultural Social Hub</li>
+                        <ul className="roadmap-list">        
+                            <li className="roadmap-list-item">Launch our $PESO fueled ecosystem</li>
                             <li className="roadmap-list-item">100,000+ Holders</li>
                             <li className="roadmap-list-item">T1 Exchange Listing</li>
                         </ul>
@@ -128,7 +127,7 @@ class HomePage extends Component {
             </div>
             <div className="diving-img"></div>
                 <div className="subtitle">
-                Ready to dive into the Pepe Peso pool? Buying Pepe Pesos is as easy as ordering a taco at a beachside shack! We'll guide you through the process, from setting up your wallet to swapping BNB for Pepe Pesos on PancakeSwap. Whether you're a seasoned crypto guru or a newbie just crossing the border into the crypto world, we've got you covered. Let's make this fiesta bigger, louder, and richer!
+                Ready to dive into the Pepe Peso pool? Buying Pepe Pesos is as easy as ordering a taco at a beachside shack!
                 </div>
                 <div className="buy-steps-container">
                 <div className="buy-step one">
@@ -171,7 +170,7 @@ class HomePage extends Component {
         </div>
         <div className="frame-container">
             <div className="frame-holder">
-            <iframe width="100%" height="640" frameborder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=custom&amp;accent=79b053&amp;background=ffffff&amp;padding=16&amp;chainId=56&amp;inputAddress=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&amp;outputAddress=0x73b745daAe667dFF081C3FE746C52142d338d467"></iframe>
+            <iframe width="100%" height="640" frameborder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=custom&amp;accent=79b053&amp;background=ffffff&amp;padding=16&amp;chainId=56&amp;inputAddress=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&amp;outputAddress=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"></iframe>
             </div>
         </div>
 
@@ -195,38 +194,21 @@ class HomePage extends Component {
                                     {"Owner Addr : " + ownerAddress}
                                 </div>
                         </div>
-                        <div className="roadmap-section toke">
-                                <div className="roadmap-list-item">
-                                    {"Liq. Airdrops : " + liquidityAirdropWallet}
-                                </div>
-                        </div>
-                        <div className="roadmap-section toke">
-                                <div className="roadmap-list-item">
-                                    {"Comm. Airdrops : " + communityAirdropWallet}
-                                </div>
-                        </div>
-                        <div className="roadmap-section toke">
-                                <div className="roadmap-list-item">
-                                    {"CEX Reserve : " + exchangeWallet}
-                                </div>
-                        </div>
                         
                     </div>
                     <div className="roadmap-section token">
                         <ul className="roadmap-list tokenomics">
                         <li className="roadmap-list-item">Total Supply : 430000000000000</li>
                             <li className="roadmap-list-item">NO TAXES - In honor of the great Mexican Dream.</li>
-                            <li className="roadmap-list-item">Like a well-filled piñata, we're stuffing PancakeSwap with 80% of our Pepe $PESO!</li>
-                            <li className="roadmap-list-item">A solid 10% is set aside for our hardworking Liquidity Providers. Muchas gracias for your support!</li>
+                            <li className="roadmap-list-item">100% of $PESO goes to the pool!</li>
                            </ul>
                         
                     </div>
                     
                     <div className="roadmap-section token">
                     <ul className="roadmap-list tokenomics"> 
-                            <li className="roadmap-list-item">The Pepe Peso's fiesta wouldn't be the same without our community. That's why 3% is dedicated to airdrops for community engagement.</li>
-                            <li className="roadmap-list-item">The remaining 7% is for expanding our fiesta to other exchanges, building bridges, and spreading the word about Pepe Peso!</li>
-                            <li className="roadmap-list-item">Initial LP tokens will be burned, like the heat of a habanero.</li>
+                            <li className="roadmap-list-item">The $PESO will be fuel our eventual ecosystem</li>
+                            <li className="roadmap-list-item">Initial LP tokens will be locked! (Exact Lock Period is TBA but we're in it for the long haul!)</li>
                         </ul>
                         </div>
                 </div>
@@ -234,8 +216,8 @@ class HomePage extends Component {
         <div className="container-disclaimer">
         <div className="roadmap-section disclaimer" >
         Pepe Peso, while embodying the vibrant spirit of Mexican culture, does not claim any formal affiliation with any specific entity, organization, or individual that might be associated with the Pepe meme or Mexican cultural elements. Our token is a salute to these cultural motifs that harmonize with our zeal for financial growth and community engagement.
-<br></br><br></br>
-Pepe Peso is a meme token designed to encapsulate the fun and celebration associated with the cultural elements it represents. It does not inherently hold any value or guarantee financial returns. While we do have an enthusiastic team and a roadmap, the token is fundamentally a symbol of community spirit and amusement in the crypto landscape. Remember, amigos: Enjoy the fiesta with Pepe Peso, but always dance responsibly!
+        <br></br><br></br>
+        Pepe Peso is a meme token designed to encapsulate the fun and celebration associated with the cultural elements it represents. It does not inherently hold any value or guarantee financial returns. While we do have an enthusiastic team and a roadmap, the token is fundamentally a symbol of community spirit and amusement in the crypto landscape. Remember, amigos: Enjoy the fiesta with Pepe Peso, but always dance responsibly!
 
         </div>
         </div>

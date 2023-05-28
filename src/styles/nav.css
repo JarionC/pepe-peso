@@ -81,3 +81,21 @@
     overflow:hidden;
     cursor: pointer;
 }
+
+.nav-wrapper {
+    width:100%;
+    display:grid;
+}
+
+.nav-disclaimer {
+    width:60%;
+    height: auto;
+    font-weight: 600;
+    font-size: 1em;
+    color: black;
+    background-color: rgb(252, 181, 20,  1);
+    top: 80px;
+    justify-self:center;
+    padding: 3px;
+    border-radius:8px;
+}

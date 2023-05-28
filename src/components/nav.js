@@ -16,17 +16,27 @@ const NavBar = () => {
   const handleClick = () => {
     setIsPlayingOutside(!isPlayingOutside);
   }
+
+  /*
+    <div className="nav-disclaimer">
+          Hola, Amigos! Unfortunately, our launch did not go according to plan. But worry not, investors were
+          reimbursed and we are revising our strategy and social media and plan to relaunch better than ever! We are learning from our
+          mistakes and the lessons taught by successful coins, and we hope you will join us in looking forward to our future development!
+        </div>
+  */
     return (
-      <div className="nav-container">
-        <div onClick={toTop} className="logo-container">
-          <div className="logo-box"></div>
-          
-        </div>
-        <div className="add-text">
-          {"Contract Address : 0x73b745daAe667dFF081C3FE746C52142d338d467"}
-        </div>
-        <div className={"sound-btn " + (isPlaying ? "unmuted" : "muted")} onClick={handleClick}>
+      <div className="nav-wrapper">
+         
+        <div className="nav-container">
+          <div onClick={toTop} className="logo-container">
+            <div className="logo-box"></div>
           </div>
+          <div className="add-text">
+            {"Contract Address : N/A"}
+          </div>
+          <div className={"sound-btn " + (isPlaying ? "unmuted" : "muted")} onClick={handleClick}>
+            </div>
+        </div>
       </div>
     );
   
